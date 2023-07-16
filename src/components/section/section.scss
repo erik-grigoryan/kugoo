@@ -1,0 +1,17 @@
+.section-block {
+  width: 100%;
+}
+
+.section-title-block {
+  width: 100%;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 5.1rem;
+  text-transform: uppercase;
+  color: #282739;
+  margin-bottom: 5rem;
+
+  &.align-left {
+    text-align: left;
+  }
+}

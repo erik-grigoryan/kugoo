@@ -1,0 +1,128 @@
+.hero-block {
+  width: 100%;
+  margin-bottom: 7.4rem;
+}
+
+.hero-footer {
+  width: 100%;
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.features-list {
+  width: 100%;
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .feature {
+    width: 21rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+    color: #282739;
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+      margin-right: 7.4rem;
+    }
+
+    span {
+      display: block;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.3rem;
+      color: #282739;
+      text-transform: lowercase;
+    }
+  }
+}
+
+.rate-block {
+  width: 19rem;
+  height: 7.6rem;
+  flex: 0 0 auto;
+  padding: 1rem;
+  background: #ffffff;
+  border: 0.1rem solid rgba(93, 108, 123, 0.1);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rate-logo {
+  flex: 0 0 auto;
+  width: 5.6rem;
+  height: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc3f1d;
+  border-radius: 0.5rem;
+  position: relative;
+
+  &:before {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    top: 1.3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: #FC3F1D;
+    opacity: 0.5;
+    filter: blur(7.5px);
+    border-radius: 0.5rem;
+  }
+
+  img {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 2.9rem;
+    height: 2.9rem;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+.rate-content {
+  width: 100%;
+  min-width: 0;
+  flex: 1;
+  padding-left: 1.8rem;
+}
+
+.rate-label {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #5d6c7b;
+}
+
+.rate-num {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 3.6rem;
+  color: #282739;
+
+  span {
+    display: block;
+    margin-right: 0.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    font-size: 1.4rem;
+    color: #ffd12e;
+  }
+}

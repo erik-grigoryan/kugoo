@@ -1,0 +1,19 @@
+.main-slider {
+  width: 100%;
+  min-height: 48.1rem;
+  padding: 3rem;
+  display: flex;
+  align-items: stretch;
+}
+
+.main-slider-inner {
+  width: 100%;
+  background-image: radial-gradient(58.73% 541.94% at 75.14% 62.23%, #a6a9ff 0%, #6f73ee 100%);
+  border-radius: 1rem;
+  padding-top: 3rem;
+}
+
+.slides-group {
+  width: 100%;
+  height: 100%;
+}

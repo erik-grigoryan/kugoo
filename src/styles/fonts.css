@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('../assets/fonts/Jost-Regular.eot');
+    src: local('Jost Regular'), local('Jost-Regular'),
+    url('../assets/fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Jost-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Jost-Regular.woff') format('woff'),
+    url('../assets/fonts/Jost-Regular.ttf') format('truetype'),
+    url('../assets/fonts/Jost-Regular.svg#Jost-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../assets/fonts/Jost-SemiBold.eot');
+    src: local('Jost SemiBold'), local('Jost-SemiBold'),
+    url('../assets/fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Jost-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/Jost-SemiBold.woff') format('woff'),
+    url('../assets/fonts/Jost-SemiBold.ttf') format('truetype'),
+    url('../assets/fonts/Jost-SemiBold.svg#Jost-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('../assets/fonts/Jost-Medium.eot');
+    src: local('Jost Medium'), local('Jost-Medium'),
+    url('../assets/fonts/Jost-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/Jost-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Jost-Medium.woff') format('woff'),
+    url('../assets/fonts/Jost-Medium.ttf') format('truetype'),
+    url('../assets/fonts/Jost-Medium.svg#Jost-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Kugoo-Icons';
+    src:  url('../assets/fonts/icons-font/fonts/Kugoo-Icons.eot?jbkjya');
+    src:  url('../assets/fonts/icons-font/fonts/Kugoo-Icons.eot?jbkjya#iefix') format('embedded-opentype'),
+    url('../assets/fonts/icons-font/fonts/Kugoo-Icons.ttf?jbkjya') format('truetype'),
+    url('../assets/fonts/icons-font/fonts/Kugoo-Icons.woff?jbkjya') format('woff'),
+    url('../assets/fonts/icons-font/fonts/Kugoo-Icons.svg?jbkjya#Kugoo-Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Kugoo-Icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart-filled:before {
+    content: "\e913";
+}
+.icon-search:before {
+    content: "\e912";
+}
+.icon-arrow:before {
+    content: "\e900";
+}
+.icon-battery:before {
+    content: "\e901";
+}
+.icon-cart:before {
+    content: "\e902";
+}
+.icon-check:before {
+    content: "\e903";
+}
+.icon-chevron:before {
+    content: "\e904";
+}
+.icon-duration:before {
+    content: "\e905";
+}
+.icon-heart:before {
+    content: "\e906";
+}
+.icon-home:before {
+    content: "\e907";
+}
+.icon-lightning:before {
+    content: "\e908";
+}
+.icon-minus:before {
+    content: "\e909";
+}
+.icon-plus:before {
+    content: "\e90a";
+}
+.icon-scales:before {
+    content: "\e90b";
+}
+.icon-speed:before {
+    content: "\e90c";
+}
+.icon-star:before {
+    content: "\e90d";
+}
+.icon-telegram:before {
+    content: "\e90e";
+}
+.icon-trash:before {
+    content: "\e90f";
+}
+.icon-viber:before {
+    content: "\e910";
+}
+.icon-whatsapp:before {
+    content: "\e911";
+}
